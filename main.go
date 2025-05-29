@@ -8,7 +8,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintln(w, "Go Server Running")
+		fmt.Fprintln(w, "Go Server Running Successfully")
 	})
 
 	http.HandleFunc("/update", handleUpdate)
